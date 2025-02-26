@@ -2,10 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Lareina's Personal Website</title>
+    <meta name="author" content="Shiwen(Lareina) Yang">
+    <meta name="description" content="Personal Website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-    <!-- <img src="img/profile.jpg" alt="Lareina Yang"> -->
+    <header>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+    <aside>
+        <h1><a href="">Shiwen(Lareina) Yang</a></h1>
+        <img id="profile-img" src="img/profile.jpg" alt="Lareina Yang" width="250">
+        <p>Email: <a href="mailto:sy796@cornell.edu">sy796@cornell.edu</a></p>
+        <p>Github: <a href="https://github.com/Lareina-Y">Lareina-Y</a></p>
+    </aside>
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>
+                I am currently pursuing a Master's degree in Computer Science at Cornell Tech 
+                and graduated from Dalhousie majoring in Computer Science. Graduating in May 2025, 
+                I am actively seeking full-time opportunities in Software Engineering in the US 
+                and Canada. Feel free to contact me about job opportunities!
+            </p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <article>
+                <h3>ReelData AI, Software Developer Intern & Part-Time</h3>
+                <ul>
+                    <li>Built an operations dashboard in TypeScript for a biomass estimation camera system, implemented features and configurations</li>
+                    <li>Ensure code reliability through unit, integration, and visual regression tests using Jest, JUnit, React Testing Library, and Storybook</li>
+                    <li>Engaged in discussions on database design, API adjustments, and implementation, and conducted code reviews</li>
+                    <li>Collaborated with the UX designer to refine app design and features boosting user interface intuitiveness and client satisfaction</li>
+                </ul>
+            </article>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Search Term Identification for Concept Location Leveraging Word Relations</h3>
+            <p>Enhance query reformulation technique, STRICT using text graphs with three types of word relations to improve concept search accuracy</p>
+            <ul>
+                <li>Investigated combinations of five graph-based algorithms and their weight distribution for search term selection</li>
+                <li>Proposed a novel algorithm–STRICT++ that integrates four graph-based algorithms with three types of inter-word relations</li>
+                <li>Conducted experiments on 946 change requests from 22 systems, demonstrating performance improvements of STRICT++</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Shiwen | <a href="https://github.com/Lareina-Y">GitHub</a></p>
+    </footer>
 </body>
 </html>
